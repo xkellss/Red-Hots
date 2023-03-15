@@ -1,0 +1,23 @@
+.header {
+    width: 80%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffcc00;
+    padding: 0 10%;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.badge {
+    background-color: #cc2062;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+}

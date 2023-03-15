@@ -1,0 +1,1402 @@
+[
+  {
+    "itemId": "03475B0D-9D5C-4D30-8E5A-84CE8A6E350C",
+    "name": "Brisk Lemon Iced Tea",
+    "department": "Brisk Lemon Iced Tea",
+    "image": "/img/fries.png",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000565",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.36,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-04T00:00:00",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "066E9A13-F8AD-49F4-B4D9-5FD3FE673024",
+    "name": "Cup of Chili Sauce",
+    "department": "Cup of Chili Sauce",
+    "image": "/img/fries.png",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000367",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.15,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-05T14:58:32",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "0F806B56-D361-4DF3-83C2-455D73CFE41E",
+    "name": "Diet Coke Can",
+    "department": "Diet Coke 12 oz",
+    "image": "/img/fries.png",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000084",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.32,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2021-06-05T10:51:17",
+    "supplier": "Sams Club",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "14764368-C6EB-4413-B9A6-547AA298AECF",
+    "name": "Green River Ice Cream Float",
+    "department": "Green River Floats",
+    "image": "/img/dog.png",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000527",
+    "price": 3.93,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.75,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2020-05-06T15:11:20",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "18E69BDE-10D4-4AA6-B198-F542B2F249EE",
+    "name": "Chicken Strips - 3 Piece",
+    "department": "Chicken Strips 3",
+    "image": "/img/dog.png",
+
+    "category": "general",
+    "upc": "",
+    "sku": "400000000244",
+    "price": 5.63,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.5,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T13:37:14",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 20,
+      "name": "",
+      "description": "",
+      "itemId": "18E69BDE-10D4-4AA6-B198-F542B2F249EE",
+      "groups": [
+        {
+          "groupId": 36,
+          "name": "Sauce",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 30,
+              "name": "Barbeque",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 31,
+              "name": "Honey Mustard",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 32,
+              "name": "Ranch",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 33,
+              "name": "Buffalo",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 34,
+              "name": "Ketchup",
+              "price": 0,
+              "isDefault": false
+            }
+          ]
+        }
+      ],
+      "addons": [],
+      "noOptions": []
+    }
+  },
+  {
+    "itemId": "1DD95CD4-27DB-4F46-9EF2-5D289CAC41D1",
+    "name": "Cup of Cheese",
+    "department": "Cup of Cheese",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000350",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.15,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:16:19",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "1E4C8EFB-3F5C-4DA4-B401-DA23964E8C8D",
+    "name": "Chicago Pizza Puff - Beef",
+    "department": "Pizza Puff Beef Sausage",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000169",
+    "price": 3.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.9,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T13:59:05",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "34B4F231-7CCA-4C51-B7DE-D045DF77A9DE",
+    "name": "Chicago Polish",
+    "department": "Chicago Polish",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000145",
+    "price": 5.15,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.6,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T13:11:38",
+    "supplier": "Panos",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 23,
+      "name": "",
+      "description": "",
+      "itemId": "34B4F231-7CCA-4C51-B7DE-D045DF77A9DE",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 28,
+          "name": "Add Ketchup",
+          "price": 0
+        },
+        {
+          "addonId": 29,
+          "name": "Add Chili",
+          "price": 0.5
+        },
+        {
+          "addonId": 30,
+          "name": "Add Cheese",
+          "price": 0.5
+        },
+        {
+          "addonId": 31,
+          "name": "Add Grilled Onion",
+          "price": 0.75
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 16,
+          "name": "No Mustard",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 17,
+          "name": "No Relish",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 18,
+          "name": "No Onion",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 19,
+          "name": "No Pickle",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 20,
+          "name": "No Celery Salt",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 21,
+          "name": "No Sport Pepper",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "39EE5BCC-1ED7-47B9-8B22-3D3434779EAD",
+    "name": "Double Dog",
+    "department": "Double Dog",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000190",
+    "price": 5.15,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.66,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T12:39:03",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 24,
+      "name": "",
+      "description": "",
+      "itemId": "39EE5BCC-1ED7-47B9-8B22-3D3434779EAD",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 32,
+          "name": "Add Ketchup",
+          "price": 0
+        },
+        {
+          "addonId": 33,
+          "name": "Add Chili",
+          "price": 0.5
+        },
+        {
+          "addonId": 34,
+          "name": "Add Cheese",
+          "price": 0.5
+        },
+        {
+          "addonId": 35,
+          "name": "Add Grilled Onion",
+          "price": 0.75
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 22,
+          "name": "No Mustard",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 23,
+          "name": "No Relish",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 24,
+          "name": "No Onion",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 25,
+          "name": "No Pickle",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 26,
+          "name": "No Celery Salt",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 27,
+          "name": "No Sport Pepper",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "3A70993F-8C84-4B3A-A166-40728ED280B7",
+    "name": "Fresh Cut Fries - Regular",
+    "department": "Fresh Cut Fries- One Size",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000176",
+    "price": 1.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.5,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:09:28",
+    "supplier": "Panos",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 37,
+      "name": "Fresh Cut Fries - Regular",
+      "description": "hello",
+      "itemId": "3A70993F-8C84-4B3A-A166-40728ED280B7",
+      "groups": [
+        {
+          "groupId": 38,
+          "name": "Size",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 40,
+              "name": "Regular",
+              "price": 0,
+              "isDefault": true
+            },
+            {
+              "groupOptionId": 41,
+              "name": "Large",
+              "price": 0.65,
+              "isDefault": false
+            }
+          ]
+        }
+      ],
+      "addons": [],
+      "noOptions": []
+    }
+  },
+  {
+    "itemId": "3FEAFE25-195B-4411-A43C-8C628C742D20",
+    "name": "Maxwell Street Polish",
+    "department": "Maxwell",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000152",
+    "price": 5.74,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.5,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:09:28",
+    "supplier": "Panos",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 25,
+      "name": "Maxwell Street Polish",
+      "description": "hello",
+      "itemId": "3FEAFE25-195B-4411-A43C-8C628C742D20",
+      "groups": [
+        {
+          "groupId": 39,
+          "name": "Breading",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 42,
+              "name": "Hot Dog Bun",
+              "price": 0,
+              "isDefault": true
+            },
+            {
+              "groupOptionId": 43,
+              "name": "French Roll",
+              "price": 0,
+              "isDefault": false
+            }
+          ]
+        }
+      ],
+      "addons": [
+        {
+          "addonId": 36,
+          "name": "Add Ketchup",
+          "price": 0
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 28,
+          "name": "No Mustard",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 29,
+          "name": "No Grilled Onion",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 30,
+          "name": "No Sport Pepper",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "45B55EC6-7874-4D37-8A4A-76ED0357CD1F",
+    "name": "Nachos with Cheese",
+    "department": "Nachos with Cheese",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000466",
+    "price": 4.5,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-05T13:42:40",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 27,
+      "name": "",
+      "description": "",
+      "itemId": "45B55EC6-7874-4D37-8A4A-76ED0357CD1F",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 39,
+          "name": "Add Jalapenos",
+          "price": 0.5
+        }
+      ],
+      "noOptions": []
+    }
+  },
+  {
+    "itemId": "4750F70F-6E01-46B5-A8CF-F1B0218AFAFD",
+    "name": "Gatorade",
+    "department": "Gatorade",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000305",
+    "price": 2.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.75,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-05T17:09:44",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "5A20A68C-AC4B-4E61-8BAF-AD8CCA6BAA8B",
+    "name": "Fresh Cut Fries - Large",
+    "department": "Fresh Cut Fries - Large",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000596",
+    "price": 2.49,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.7,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:16:19",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 38,
+      "name": "Fresh Cut Fries - Large",
+      "description": "hello",
+      "itemId": "5A20A68C-AC4B-4E61-8BAF-AD8CCA6BAA8B",
+      "groups": [
+        {
+          "groupId": 40,
+          "name": "Size",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 44,
+              "name": "Regular",
+              "price": 0,
+              "isDefault": true
+            },
+            {
+              "groupOptionId": 45,
+              "name": "Large",
+              "price": 0,
+              "isDefault": false
+            }
+          ]
+        }
+      ],
+      "addons": [
+        {
+          "addonId": 56,
+          "name": "Add Cup of Cheese",
+          "price": 1
+        },
+        {
+          "addonId": 57,
+          "name": "Add Cup of Chili",
+          "price": 1
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 46,
+          "name": "No Salt",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "5A20A68C-AC4B-4E61-8BAF-AD8CCA6BAA8B",
+    "name": "Fresh Cut Fries - Large",
+    "department": "Fresh Cut Fries - Large",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000596",
+    "price": 2.49,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.7,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:16:19",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 38,
+      "name": "Fresh Cut Fries - Large",
+      "description": "hello",
+      "itemId": "5A20A68C-AC4B-4E61-8BAF-AD8CCA6BAA8B",
+      "groups": [
+        {
+          "groupId": 40,
+          "name": "Size",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 44,
+              "name": "Regular",
+              "price": 0,
+              "isDefault": true
+            },
+            {
+              "groupOptionId": 45,
+              "name": "Large",
+              "price": 0,
+              "isDefault": false
+            }
+          ]
+        }
+      ],
+      "addons": [
+        {
+          "addonId": 56,
+          "name": "Add Cup of Cheese",
+          "price": 1
+        },
+        {
+          "addonId": 57,
+          "name": "Add Cup of Chili",
+          "price": 1
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 46,
+          "name": "No Salt",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "65289FE9-340C-4AE0-B77E-6E0332662711",
+    "name": "Italian Beef Sandwich",
+    "department": "Italian Beef",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000121",
+    "price": 7.49,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 2.5,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:01:08",
+    "supplier": "Panos",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 18,
+      "name": "Italian Beef Modifier",
+      "description": "Modifiers for Italian Beef",
+      "itemId": "65289FE9-340C-4AE0-B77E-6E0332662711",
+      "groups": [
+        {
+          "groupId": 33,
+          "name": "Gravy",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 28,
+              "name": "New Option",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 23,
+              "name": "Dry",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 24,
+              "name": "Wet",
+              "price": 0,
+              "isDefault": false
+            },
+            {
+              "groupOptionId": 25,
+              "name": "Soaked",
+              "price": 0,
+              "isDefault": false
+            }
+          ]
+        },
+        {
+          "groupId": 35,
+          "name": "New Group",
+          "description": "",
+          "groupOptions": [
+            {
+              "groupOptionId": 29,
+              "name": "New Option",
+              "price": 0,
+              "isDefault": false
+            }
+          ]
+        }
+      ],
+      "addons": [
+        {
+          "addonId": 13,
+          "name": "Mozzarella Cheese",
+          "price": 1
+        },
+        {
+          "addonId": 14,
+          "name": "Cheddar Cheese",
+          "price": 1
+        },
+        {
+          "addonId": 15,
+          "name": "Hot Giardinera",
+          "price": 0.75
+        },
+        {
+          "addonId": 16,
+          "name": "Sweet Peppers",
+          "price": 0.75
+        },
+        {
+          "addonId": 18,
+          "name": "New Option",
+          "price": 0
+        },
+        {
+          "addonId": 19,
+          "name": "New Option",
+          "price": 0
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 2,
+          "name": "New Option",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 3,
+          "name": "New Option",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "6FC2528B-9DAA-4DDA-8484-82C24C43C2A1",
+    "name": "Fanta Orange Can",
+    "department": "Fanta Orange 12 oz Can",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000329",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.32,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2021-02-11T14:05:12",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "78D9EF77-DBA5-4CB9-A30C-3E59FF490619",
+    "name": "Chili Cheese Dog",
+    "department": "Chili Cheese Dog",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000237",
+    "price": 4.55,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.5,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:16:19",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 29,
+      "name": "",
+      "description": "",
+      "itemId": "78D9EF77-DBA5-4CB9-A30C-3E59FF490619",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 42,
+          "name": "Add Ketchup",
+          "price": 0
+        },
+        {
+          "addonId": 43,
+          "name": "Add Mustard",
+          "price": 0
+        },
+        {
+          "addonId": 44,
+          "name": "Add Sport Pepper",
+          "price": 0
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 33,
+          "name": "No Onions",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "7CD3E335-C0F8-4FAB-B673-0D972AB9121A",
+    "name": "Tom Tom Tamale",
+    "department": "Tom Tom Tamale",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000336",
+    "price": 2.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-05T17:09:44",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 30,
+      "name": "Tom Tom Tamale",
+      "description": "hello",
+      "itemId": "7CD3E335-C0F8-4FAB-B673-0D972AB9121A",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 45,
+          "name": "Add Cup of Cheese",
+          "price": 1
+        },
+        {
+          "addonId": 46,
+          "name": "Add Cup of Chili",
+          "price": 1
+        }
+      ],
+      "noOptions": []
+    }
+  },
+  {
+    "itemId": "8CF0B27B-6E84-4D7E-AA6A-3894801C6518",
+    "name": "Root Beer Float",
+    "department": "Root Beer Float",
+    "category": "Root Beer Float",
+    "upc": "",
+    "sku": "400000000589",
+    "price": 3.93,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2020-09-17T13:16:15",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "8D229A78-F885-48D6-B24F-0F6D188DEBEB",
+    "name": "Chicago Pizza Puff - Pepperoni",
+    "department": "Chicago Pizza Puff - Pepperoni",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000299",
+    "price": 3.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.9,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:01:08",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "96A48FE7-18A4-4748-BBF4-A7CAFBBCB090",
+    "name": "Minute Maid Lemonade",
+    "department": "Minute Maid Lemonade",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000572",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.36,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-04T00:00:00",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "A9495557-FE3C-40E1-904E-B2BB2C6A4B79",
+    "name": "Barq’s Root Beer  Can",
+    "department": "Barqs Root Beer 12 oz Cans",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000312",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.32,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2021-05-18T13:26:40",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "B53E690A-F833-4F99-B57A-E6C871001F82",
+    "name": "Sprite Can",
+    "department": "Sprite 12 oz Can",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000091",
+    "price": 1,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.32,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2021-04-13T14:07:01",
+    "supplier": "Sams Club",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "C2222AC2-7A84-455D-891A-81C3710B21D4",
+    "name": "Chicken Strips - 5 Piece",
+    "department": "Chicken Strips 5",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000282",
+    "price": 8.39,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 2,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T12:54:13",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 33,
+      "name": "Chicken Strips - 5 Piece",
+      "description": "",
+      "itemId": "C2222AC2-7A84-455D-891A-81C3710B21D4",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 52,
+          "name": "Add Ketchup",
+          "price": 0
+        },
+        {
+          "addonId": 53,
+          "name": "Add Chili",
+          "price": 0.5
+        },
+        {
+          "addonId": 54,
+          "name": "Add Cheese",
+          "price": 0.5
+        },
+        {
+          "addonId": 55,
+          "name": "Add Grilled Onion",
+          "price": 0.75
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 40,
+          "name": "No Mustard",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 41,
+          "name": "No Relish",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 42,
+          "name": "No Onion",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 43,
+          "name": "No Pickle",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 44,
+          "name": "No Celery Salt",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 45,
+          "name": "No Sport Pepper",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "CA82FDCA-E651-4D04-924C-2F38618C1B91",
+    "name": "Cheese Dog",
+    "department": "Cheese Dog",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000220",
+    "price": 4.31,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.25,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:16:19",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "CBF01EBF-0611-4401-8BD4-B75D2ED0B508",
+    "name": "Chili Dog",
+    "department": "Chili Dog",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000213",
+    "price": 4.31,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.25,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-04T19:04:35",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "D00DFA48-BD13-4371-BF5A-82C446F9E0E4",
+    "name": "Dasani Water",
+    "department": "Dasani Water",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000251",
+    "price": 1.79,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.4,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-05T13:25:54",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "DD3D06DE-DD5F-4C0A-925B-87BE863DB494",
+    "name": "Chicago Style Hot Dog",
+    "department": "Hot Dog 8 to 1",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000046",
+    "price": 3.59,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.05,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:16:19",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": {
+      "modifierId": 19,
+      "name": "Chicago Style Hot Dog",
+      "description": "",
+      "itemId": "DD3D06DE-DD5F-4C0A-925B-87BE863DB494",
+      "groups": [],
+      "addons": [
+        {
+          "addonId": 20,
+          "name": "Add Ketchup",
+          "price": 0
+        },
+        {
+          "addonId": 21,
+          "name": "Add Chili",
+          "price": 0.5
+        },
+        {
+          "addonId": 22,
+          "name": "Add Cheese",
+          "price": 0.5
+        },
+        {
+          "addonId": 23,
+          "name": "Add Grilled Onion",
+          "price": 0.75
+        }
+      ],
+      "noOptions": [
+        {
+          "noOptionId": 4,
+          "name": "No Mustard",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 5,
+          "name": "No Relish",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 6,
+          "name": "No Onion",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 7,
+          "name": "No Pickle",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 8,
+          "name": "No Celery Salt",
+          "discountPrice": 0
+        },
+        {
+          "noOptionId": 9,
+          "name": "No Sport Pepper",
+          "discountPrice": 0
+        }
+      ]
+    }
+  },
+  {
+    "itemId": "DDD3DFB6-7A5A-47CD-88F7-C979387C0736",
+    "name": "Corn Dog",
+    "department": "Corn Dog",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000206",
+    "price": 4.19,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T13:05:11",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "E1D42779-05A9-4251-B94E-378C11191A59",
+    "name": "2 DOG DEAL- 2 Dogs Fries & 12oz Can -",
+    "department": "Hotdog Special Free",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000343",
+    "price": 9.24,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 2.67,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T14:33:22",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "E56ED17D-F2DA-4304-9F0A-4E76F203041B",
+    "name": "Monster",
+    "department": "Monster",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000268",
+    "price": 3.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.42,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-02-25T18:26:40",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "EDA86594-C546-4CB9-A6C8-ED568DDE78E7",
+    "name": "12 oz Can",
+    "department": "Coke 12 oz Can",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000077",
+    "price": 1.25,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 0.32,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2022-03-06T17:09:28",
+    "supplier": "Sams Club",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  },
+  {
+    "itemId": "F4B7B414-0B6E-45E1-B48D-D98AB3857F69",
+    "name": "Green River Bottle",
+    "department": "Green River Bottle",
+    "category": "general",
+    "upc": "",
+    "sku": "400000000558",
+    "price": 3.99,
+    "discountable": false,
+    "taxable": false,
+    "trackingInventory": false,
+    "cost": 0,
+    "assignedCost": 1.5,
+    "quantity": 0,
+    "reorderTrigger": 0,
+    "recommendedOrder": 0,
+    "lastSoldDate": "2021-12-07T11:56:03",
+    "supplier": "not tracked",
+    "liabilityItem": false,
+    "liabilityRedemptionTender": "",
+    "taxGroupOrRate": "0",
+    "modifier": null
+  }
+]
