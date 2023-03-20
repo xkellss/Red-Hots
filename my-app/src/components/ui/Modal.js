@@ -33,6 +33,8 @@ function Modal(props){
     const modifierGroups = props.selectedMenuItem.modifier?.groups;
     const modifierAddons = props.selectedMenuItem.modifier?.addons;
     const modifierNoOptions = props.selectedMenuItem.modifier?.noOptions;
+
+
     return(
         <div className={classes.modal}>
             <h2>{props.name}</h2>
@@ -52,14 +54,18 @@ function Modal(props){
                             ))}
                     </div>
                 ))}
-
+            </div>
+            <div>
+                <h3>Addons</h3>
                 {modifierGroups && modifierAddons.map(addon => (
                     <div key={addon.addonId}>
                         <input type="checkbox" value={addon.addonId} name="addon" />
                         {addon.name} ({addon.price})
                     </div>
                 ))}
-
+            </div>
+            <div>
+                <h3>Removal Options</h3>
                 {modifierGroups && modifierNoOptions.map(noOpt => (
                     <div key={noOpt.noOptionId}>
                         <input type="checkbox" value={noOpt.noOptionId} name="noOption" />
@@ -68,11 +74,6 @@ function Modal(props){
                     </div>
                 ))}
             </div>
-
-
-
-
-            <p>Are you sure?</p>
 
             <button className={classes.btnBack} onClick={backHandler}>Back</button>
             {/*<button className={classes.btn} onClick={confirmHandler}>Add to Cart</button>*/}
