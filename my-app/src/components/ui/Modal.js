@@ -39,7 +39,7 @@ function Modal(props){
         <div className={classes.modal}>
             <h2>{props.name}</h2>
             <div className={classes.image}>
-                <img src={props.image} alt="My Image" />
+                {/*<img src={props.image} alt="My Image" />*/}
             </div>
 
             <div>
