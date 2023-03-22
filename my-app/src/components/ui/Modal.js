@@ -7,9 +7,12 @@ function Modal(props){
     const cartCtx= useContext(CartContext)
 
     const itemIsInCart = cartCtx.itemIsInCart(props.selectedMenuItem.id);
-
     const [price, setPrice] = useState(parseFloat(props.selectedMenuItem.price));
 
+    //need function to grab checked
+    function updatePrice(p){
+
+    }
 
 
     function toggleCartStatusHandler(){
@@ -44,9 +47,6 @@ function Modal(props){
         console.log(modifierTotal)
 
         itemPrice = parseFloat(modifierTotal.toFixed(2));
-        if (modifierTotal >= 0) {
-            setPrice(itemPrice);
-        }
 
         if (itemIsInCart){
             cartCtx.removeCart(props.selectedMenuItem.id);
