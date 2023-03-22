@@ -19,7 +19,7 @@ function MenuItem(props) {
         <li className={classes.item}>
             <Card>
                 <div className={classes.image}>
-                    {/*<img src={props.image} alt="My Image" />*/}
+                    <img src={props.image} alt="My Image" />
                 </div>
                 <div className={classes.content}>
                     <h3>{props.name}</h3>

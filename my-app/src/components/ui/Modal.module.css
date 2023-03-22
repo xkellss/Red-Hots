@@ -1,17 +1,31 @@
 .modal{
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-    border-radius: 6px;
+    border-radius: 20px;
     background-color: white;
-    padding: 1rem;
+    padding: .2rem;
     text-align: center;
-    width: 35rem;
+    width: 30rem;
     z-index: 10;
     position: fixed;
     top: 10vh;
-    left: calc(50% - 19rem);
-
+    left: calc(50% - 16rem);
 }
-.btn{
+.overflow{
+    overflow-y: auto;
+    max-height: 60%;
+    padding-bottom: 10px;
+}
+
+.btnLayout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    box-shadow: 0 -2px 5px -3px #333;
+}
+
+ .btnCart{
     border-radius: 20px;
     padding: 0.5rem 1.5rem;
     cursor: pointer;
@@ -21,23 +35,15 @@
     margin: 0 1rem;
 
 }
-.btnBack{
-    border-radius: 20px;
-    padding: 0.5rem 1.5rem;
-    cursor: pointer;
-    background-color: #ffcc00;
-    color: black;
-    border: 1px solid #ffcc00;
-    margin: 0 1rem;
-}
-.btn:hover, .btnBack:hover{
+.btnCart:hover{
     background-color: rgba(255,204,0,0.6);
     border: rgba(255,204,0,0.6);
 }
 .image {
-    float: right;
+    /*float: right;*/
     border-top-right-radius: 6px;
     border-top-left-radius: 6px;
+    /*border: solid red;*/
 }
 
 .image img {
