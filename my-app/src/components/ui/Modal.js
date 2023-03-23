@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import classes from './Modal.module.css'
 import CartContext from "../../store/Cart-Context";
 
@@ -8,7 +8,18 @@ function Modal(props) {
 
     const itemIsInCart = cartCtx.itemIsInCart(props.selectedMenuItem.id);
     const [price, setPrice] = useState(parseFloat(props.selectedMenuItem.price));
+    const [qty, setQty] = useState(1);
 
+    function incrementQty(){
+        setQty(qty => qty + 1);
+    }
+    function decrementQty() {
+        if (qty > 1) {
+            setQty(qty => qty - 1);
+        }
+    }
+
+    useEffect(updatePrice, [props.selectedMenuItem, qty]);
 
     function updatePrice(){
         let itemPrice = parseFloat(props.selectedMenuItem.price);
@@ -37,9 +48,10 @@ function Modal(props) {
             });
         }
         itemPrice = parseFloat(modifierTotal.toFixed(2));
-        setPrice(itemPrice);
+        setPrice(itemPrice*qty);
 
         console.log(modifierTotal)
+        console.log(itemPrice)
 
     }
     function toggleCartStatusHandler(){
@@ -55,12 +67,17 @@ function Modal(props) {
                 name: props.selectedMenuItem.name,
                 image: props.selectedMenuItem.image,
                 modifier: props.selectedMenuItem.modifier,
-                price: price
+                price: price,
+                quantity: qty
             });
         }
         // props.onConfirm();
         console.log('cart:', cartCtx.cart);
     }
+
+
+
+
 
     //check if modifier exists before accessing groups
     const modifierGroups = props.selectedMenuItem.modifier?.groups;
@@ -121,9 +138,9 @@ function Modal(props) {
             {/*<button className={classes.btnBack} onClick={backHandler}>Back</button>*/}
             {/*<button className={classes.btn} onClick={confirmHandler}>Add to Cart</button>*/}
                 <span className={classes.qty}>Quantity:</span>
-                <button className={classes.btnQty} >-</button>
-                <span className={classes.qty}>0</span>
-                <button className={classes.btnQty}>+</button>
+                <button className={classes.btnQty} onClick={decrementQty} >-</button>
+                <span className={classes.qty}>{qty}</span>
+                <button className={classes.btnQty} onClick={incrementQty} >+</button>
 
             <button className={classes.btnCart} onClick={toggleCartStatusHandler}>{itemIsInCart?
                 ' Remove From Cart - ': 'Add To Cart - '}${price.toFixed(2)}
