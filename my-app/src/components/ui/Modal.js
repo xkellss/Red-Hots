@@ -2,24 +2,16 @@ import React, {useContext, useState} from "react";
 import classes from './Modal.module.css'
 import CartContext from "../../store/Cart-Context";
 
-function Modal(props){
+function Modal(props) {
 
-    const cartCtx= useContext(CartContext)
+    const cartCtx = useContext(CartContext)
 
     const itemIsInCart = cartCtx.itemIsInCart(props.selectedMenuItem.id);
     const [price, setPrice] = useState(parseFloat(props.selectedMenuItem.price));
 
-    //need function to grab checked
-    function updatePrice(p){
 
-    }
-
-
-    function toggleCartStatusHandler(){
-        console.log('props.selectedMenuItem.id:', props.selectedMenuItem.id);
-        console.log('itemIsInCart:', itemIsInCart);
-
-        let itemPrice = price;
+    function updatePrice(){
+        let itemPrice = parseFloat(props.selectedMenuItem.price);
         let modifierTotal = itemPrice;
 
         //loop through each & add up ones that are checked
@@ -44,9 +36,16 @@ function Modal(props){
                 }
             });
         }
+        itemPrice = parseFloat(modifierTotal.toFixed(2));
+        setPrice(itemPrice);
+
         console.log(modifierTotal)
 
-        itemPrice = parseFloat(modifierTotal.toFixed(2));
+    }
+    function toggleCartStatusHandler(){
+
+        console.log('props.selectedMenuItem.id:', props.selectedMenuItem.id);
+        console.log('itemIsInCart:', itemIsInCart);
 
         if (itemIsInCart){
             cartCtx.removeCart(props.selectedMenuItem.id);
@@ -56,10 +55,10 @@ function Modal(props){
                 name: props.selectedMenuItem.name,
                 image: props.selectedMenuItem.image,
                 modifier: props.selectedMenuItem.modifier,
-                price: itemPrice
+                price: price
             });
         }
-        props.onConfirm();
+        // props.onConfirm();
         console.log('cart:', cartCtx.cart);
     }
 
@@ -83,7 +82,7 @@ function Modal(props){
                         <h3>{group.name}</h3>
                             {group.groupOptions.map(option => (
                                 <div key={option.groupOptionId}>
-                                    <input type="checkbox" value={option.groupOptionId} name="groups" />
+                                    <input type="checkbox" value={option.groupOptionId} name="groups" onChange={updatePrice} />
                                     {option.name} (${option.price})
                                 </div>
                             ))}
@@ -96,7 +95,7 @@ function Modal(props){
                         <h3>Addons</h3>
                         {modifierGroups && modifierAddons.map(addon => (
                             <div key={addon.addonId}>
-                                <input type="checkbox" value={addon.addonId} name="addon" />
+                                <input type="checkbox" value={addon.addonId} name="addon" onChange={updatePrice}/>
                                 {addon.name} (${addon.price})
                             </div>
                         ))}
@@ -109,7 +108,7 @@ function Modal(props){
                         <h3>Removal Options</h3>
                         {modifierGroups && modifierNoOptions.map(noOpt => (
                             <div key={noOpt.noOptionId}>
-                                <input type="checkbox" value={noOpt.noOptionId} name="noOption" />
+                                <input type="checkbox" value={noOpt.noOptionId} name="noOption"onChange={updatePrice} />
 
                                 {noOpt.name} (${noOpt.discountPrice})
                             </div>
@@ -121,11 +120,16 @@ function Modal(props){
             <div className={classes.btnLayout}>
             {/*<button className={classes.btnBack} onClick={backHandler}>Back</button>*/}
             {/*<button className={classes.btn} onClick={confirmHandler}>Add to Cart</button>*/}
+                <span className={classes.qty}>Quantity:</span>
+                <button className={classes.btnQty} >-</button>
+                <span className={classes.qty}>0</span>
+                <button className={classes.btnQty}>+</button>
 
             <button className={classes.btnCart} onClick={toggleCartStatusHandler}>{itemIsInCart?
-                ' Remove From Cart': 'Add To Cart'}
+                ' Remove From Cart - ': 'Add To Cart - '}${price.toFixed(2)}
+                {/*<span className={classes.price} >${price.toFixed(2)}</span>*/}
             </button>
-                <span className={classes.price}>${price.toFixed(2)}</span>
+
             </div>
         </div>
     )

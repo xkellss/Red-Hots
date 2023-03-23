@@ -27,19 +27,29 @@
 
  .btnCart{
     border-radius: 20px;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 1.3rem;
     cursor: pointer;
     background-color: #ffcc00;
     color: black;
     border: 1px solid #ffcc00;
     margin: 0 1rem;
+     font-weight: bold;
 }
- .price{
-     padding-top: 6px;
+ .price, .qty{
+     padding: .3rem .6rem;;
+
  }
-.btnCart:hover{
+.btnCart:hover, .btnQty:hover{
     background-color: rgba(255,204,0,0.6);
-    border: rgba(255,204,0,0.6);
+    /*border: rgba(255,204,0,0.6);*/
+}
+.btnQty{
+    border-radius: 20px;
+    background-color: #ffcc00;
+    border: 1px solid #ffcc00;
+    cursor: pointer;
+    padding: 0 1rem;
+
 }
 .image {
     /*float: right;*/
