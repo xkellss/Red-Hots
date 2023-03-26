@@ -17,11 +17,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2N1ifLrUJnjYIc7IH9qVERZG7JF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,10 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -50,6 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678838092974</updated>
+<<<<<<< HEAD
       <workItem from="1678838095735" duration="8011000" />
       <workItem from="1679065373941" duration="1880000" />
 <<<<<<< HEAD
@@ -61,6 +68,11 @@
 =======
 >>>>>>> b2a4dc6202737a386717d2754cf2de0407d4bb75
 >>>>>>> Stashed changes
+=======
+      <workItem from="1678838095735" duration="8627000" />
+      <workItem from="1679845676027" duration="5794000" />
+      <workItem from="1679853079827" duration="214000" />
+>>>>>>> main
     </task>
     <servers />
   </component>
