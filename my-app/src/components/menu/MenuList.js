@@ -25,7 +25,7 @@ function MenuList(props) {
                         name={menuItem.name}
                         image={menuItem.image}
                         price={menuItem.price}
-                        category={menuItem.category}
+                        modifier={menuItem.modifier}
                         onAddToCart={handleAddToCart}
                     />
                 ))}
@@ -35,6 +35,7 @@ function MenuList(props) {
                     <Modal
                         name={selectedMenuItem.name}
                         image={selectedMenuItem.image}
+                        modifier={selectedMenuItem.modifier}
                         onBack={handleModalClose}
                         onConfirm={() => {
                             props.onAddToCart(selectedMenuItem);

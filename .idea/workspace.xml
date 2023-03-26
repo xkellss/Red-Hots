@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e35c6f4-81aa-4c5f-b287-3746a26608aa" name="Changes" comment="" />
+    <list default="true" id="3e35c6f4-81aa-4c5f-b287-3746a26608aa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/menu/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/menu/MenuItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/menu/MenuItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/menu/MenuItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ui/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ui/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/components/ui/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/components/ui/Modal.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +56,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678838092974</updated>
+<<<<<<< HEAD
+      <workItem from="1678838095735" duration="8011000" />
+      <workItem from="1679065373941" duration="1880000" />
+<<<<<<< HEAD
+      <workItem from="1679439446371" duration="12742000" />
+=======
+      <workItem from="1679439446371" duration="12714000" />
+      <workItem from="1679497090071" duration="1767000" />
+<<<<<<< Updated upstream
+=======
+>>>>>>> b2a4dc6202737a386717d2754cf2de0407d4bb75
+>>>>>>> Stashed changes
+=======
       <workItem from="1678838095735" duration="8627000" />
       <workItem from="1679845676027" duration="5794000" />
       <workItem from="1679853079827" duration="214000" />
+>>>>>>> main
     </task>
     <servers />
   </component>

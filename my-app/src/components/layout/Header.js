@@ -18,7 +18,7 @@ function Header() {
                 <li>
                     <Link to={'/cart'}>
                         Cart
-                        <span className={classes.badge}>{cartCtx.totalCart}</span>
+                        <span className={classes.badge}> {cartCtx.totalCart}</span>
 
                     </Link>
                 </li>
