@@ -1,0 +1,33 @@
+.orderdetails__container {
+    flex: 1;
+    border: 1px solid rgb(233, 234, 236);
+    padding: 30px;
+    min-width: 500px;
+}
+.orderdetails__header {
+    text-align: left;
+    margin: 0 0 30px 0;
+}
+.OrderDetails_Delete_Button {
+    background-color: transparent;
+    color: rgb(255, 102, 102);
+    text-decoration: underline;
+    border: none;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    position: relative;
+    right: 0;
+    width: auto;
+    padding: 0;
+    cursor: pointer;
+    grid-area: delete;
+}
+.OrderDetails_Item {
+    display: grid;
+    grid-template-areas: 
+        "count details"
+        "delete addons"
+        "delete noOptions"
+        "delete groups";
+    padding: 15px 0;
+}

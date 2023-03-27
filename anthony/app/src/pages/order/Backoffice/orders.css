@@ -1,0 +1,404 @@
+.Orders {
+    width: 100%;
+    height: 100%;
+    padding: 40px 50px 50px 50px;
+    background-color: white;
+    overflow-y: scroll;
+}
+.Orders * {
+    font-family: Lato, sans-serif;
+    color: rgb(25, 25, 25);
+}
+.Orders_Content_Container {
+    height: calc(100% - 54px);
+}
+.Orders_Header {
+    text-align: left;
+}
+.Orders_Header_Title {
+    margin: 0 0 15px;
+}
+.Orders_Content_Tabs {
+    border-bottom: 1px solid rgb(213, 215, 219);
+    margin: 0 -50px 0 -50px;
+    text-align: left;
+    padding-left: 50px;
+}
+.Orders_Content_Tabs_Button {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(25, 25, 25);
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    margin-right: 5px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+.Orders .Current {
+    color: rgb(0, 187, 225);
+    border-bottom: 2px solid rgb(0, 187, 225);
+}
+.Orders_Content_Table {
+    width: 100%;
+    table-layout: fixed;
+    height: 100%;
+}
+.Orders_Table_Controls {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    position: relative;
+}
+.Orders_Table_Controls_Search_Wrapper {
+    flex: 1;
+    text-align: right;
+}
+.Orders_Table_Controls_Search {
+    border: 1px solid #dddfe1;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px 0 rgb(0 0 0 / 10%);
+    height: 100%;
+    width: 200px;
+    color: #525e71;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 4px 10px;
+    height: 30px;
+    outline: none;
+}
+.Orders_Table_Controls_Button {
+    border: 1px solid #dddfe1;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px 0 rgb(0 0 0 / 10%);
+    height: 100%;
+    width: 200px;
+    color: #525e71;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 4px 10px;
+    height: 30px;
+    background-color: white;
+    outline: none;
+}
+.Orders tr {
+    border-bottom: 1px solid lightgray;
+}
+.Orders_Content_Table > thead > tr > th {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px 16px;
+}
+.Orders_Content_Table > thead > tr {
+    border-top: 1px solid lightgray;
+}
+.Orders_Content_Table th, .Orders_Content_Table td {
+    text-align: left;
+}
+.Orders_Content_Table td {
+    font-size: 16px;
+    font-family: "Lato Thin", sans-serif;
+    padding: 18px 16px;
+}
+.Orders_Content_Table_Name_Col {
+    text-transform: capitalize;
+}
+.Orders_Status_Checkmark_Icon_Wrapper {
+    vertical-align: middle;
+    margin-right: 6px;
+    position: relative;
+}
+.Orders_Content_Table > tbody * {
+    user-select: none;
+}
+.Orders_Content_Table > tbody > tr > td {
+    font-size: 16px;
+    font-family: "Lato Thin", sans-serif;
+    padding: 18px 16px;
+    cursor: pointer;
+}
+.Orders_Content_Table > tbody > tr {
+    height: 70px;
+}
+.Orders_Content_Table > tbody > tr:hover {
+    background-color: rgb(233, 234, 236);
+}
+
+.Orders_OrderItem_Modal_Container {
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(233, 234, 236);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 5px 15px 0;
+}
+.Orders_OrderItem_Modal {
+    max-height: calc(100% - 54px);
+    overflow-y: overlay;
+}
+.Orders_OrderItem_Modal_Container * {
+    color: rgb(25, 25, 25);
+}
+.Orders_OrderItem_Modal_Details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    text-align: left;
+}
+.Orders_OrderItem_Modal_Gap {
+    border-top: 1px solid rgb(213, 215, 219);
+    border-bottom: 1px solid rgb(213, 215, 219);
+    background-color: rgb(233, 234, 236);
+    width: 100%;
+    height: 8px;
+}
+.Orders_OrderItem_Modal_Details_Header {
+    margin: 0;
+}
+.Orders_OrderItem_Modal_Header {
+    background-color: white;
+    height: 84px;
+    padding: 24px 32px;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: rgb(215, 215, 215);
+}
+.Orders_OrderItem_Modal_Header_Title {
+    margin: 0;
+}
+.Orders_OrderItem_Modal_Details_Header {
+    border-bottom: rgb(233, 234, 236);
+}
+.Orders_OrderItem_Modal_Close_Button {
+    user-select: none;
+    cursor: pointer;
+    opacity: 0.75;
+}
+.Orders_OrderItem_Modal_Details_Content_Item {
+    display: grid;
+    grid-template-columns: 50px auto auto;
+    grid-template-areas: 
+        "count details details"
+        "count addons addons"
+        "count noOptions noOptions"
+        "count groups groups";
+    padding: 15px 0;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Base_Details {
+    grid-area: details;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Count {
+    text-align: left;
+    grid-area: count;
+    font-size: 14px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Name {
+    text-align: left;
+    grid-area: name;
+    font-size: 14px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Price {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    text-align: right;
+    grid-area: price;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_Addons {
+    text-align: left;
+    grid-area: addons;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_NoOptions {
+    text-align: left;
+    grid-area: noOptions;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_Groups {
+    text-align: left;
+    grid-area: groups;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_List {
+    list-style-type: none;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_NoOptions_List {
+    list-style-type: none;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_NoOptions_List {
+    list-style-type: none;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_List_Item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_List_Item_Modifier_Label {
+    font-family: "Lato Light", sans-serif;
+    font-weight: 400;
+    margin-right: 4px;
+    font-size: 14px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_List_Item_Modifier {
+    font-family: "Lato Light", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Orders_OrderItem_Totals_Item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.Orders_OrderItem_Totals_Label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.Orders_OrderItem_Totals_Value {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Orders_OrderItem_Modal_Customer_Details {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+.Orders_OrderItem_Modal_Customer_Details_Header {
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+.Orders_OrderItem_Modal_Customer_Details_Value {
+    text-transform: capitalize;
+    text-align: left;
+    color: rgb(25, 25, 25);
+}
+.Orders_OrderItem_Modal_Customer_Details_Label {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.Orders_OrderItem_Modal_Details_Border {
+    margin: 16px 0;
+    height: 1px;
+    background-color: rgb(213, 215, 219);
+}
+
+
+.Orders_OrderItem_Calendar_Button {
+    border: none;
+    font-weight: lighter;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 0.85rem;
+    color: rgb(82,94,113);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 240px;
+    color: #525e71;
+    padding: 4px 10px;
+    height: 30px;
+    background-color: white;
+    outline: none;
+    margin-right: 20px;
+}
+.mini-calendar .container {
+    left: 0;
+}
+
+.Orders_OrderItem_Modal_Stretch {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 54px;
+    bottom: 0;
+}
+
+
+
+.Orders_Status_Dropdown_Container {
+    position: relative;
+}
+.Orders_Status_Checkbox_Icon {
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.Orders_Status_Dropdown_Button {
+    border: 1px solid #dddfe1;
+    border-radius: 5px;
+    width: 150px;
+    color: #525e71;
+    font-size: 14px;
+    padding: 4px 10px;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    outline: none;
+}
+.Orders_Status_Dropdown {
+    z-index: 2;
+    position: absolute;
+    width: 150px;
+    background-color: white;
+    border: 1px solid #dddfe1;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    padding-bottom: 3px;
+}
+.Orders_Status_Dropdown_List {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.Orders .DropdownOpen {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+}
+.Orders_Status_Dropdown_Item {
+    width: 100%;
+    user-select: none;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    color: rgb(25, 25, 25);
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Orders_Status_Dropdown_Item:hover {
+    background-color: rgb(245, 245, 245);
+}

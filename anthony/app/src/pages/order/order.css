@@ -1,0 +1,200 @@
+
+.order {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+.order__itemlist {
+    flex: 3;
+    border: 2px solid black;
+    padding: 0 15px 15px;
+    margin-right: 10px;
+    overflow-y: scroll;
+}
+.itemlist__container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.Order_Details {
+    flex: 1;
+    border: 2px solid black;
+    padding: 0 15px 15px;
+    overflow-y: scroll;
+}
+.Order_Details_Item {
+    margin: 5px;
+    border: 1px solid gray;
+    padding: 10px 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-areas:
+        "name price button"
+        "modifiers modifiers modifiers";
+}
+.Order_ItemList_Button {
+    padding: 5px;
+    font-size: 16px;
+}
+table {
+    border-collapse: collapse;
+}
+.Order_Details_Table {
+    table-layout: fixed;
+    width: 100%;
+}
+.Order_ItemList_Grid {
+    margin: 5px;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "button price"
+        "options options"
+        "addbutton addbutton";
+}
+.Order_ItemList_Grid_Button_Wrapper {
+    grid-area: button;
+}
+.Order_ItemList_Grid_Price_Wrapper {
+    grid-area: price;
+}
+.Order_ItemList_Grid_Options_Wrapper {
+    grid-area: options;
+    margin: 5px;
+    padding: 5px;
+}
+.Order_ItemList_Grid_AddItem_Button_Wrapper {
+    grid-area: addbutton;
+}
+.Order_ItemList_Grid_AddItem_Button {
+    width: 90%;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.Order_ItemList_Options_Container {
+    background-color: pink;
+}
+.Order_Item_Options_Addons_List {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 0 5px;
+}
+.Order_Item_Options_Addon_Item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+.Order_Item_Options_Addon_Item_Label {
+    margin-left: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.Order_Item_Options_Addon_Item_Checkbox {
+    cursor: pointer;
+}
+
+.Order_Details_Name_Wrapper {
+    grid-area: name;
+}
+.Order_Details_Price_Wrapper {
+    grid-area: price;
+}
+.Order_Details_Delete_Button_Wrapper {
+    grid-area: button;
+}
+.Order_Details_Modifiers_Wrapper {
+    grid-area: modifiers
+}
+.Order_Details_Modifiers_List {
+    list-style-type: none;
+    margin: 0;
+}
+.Order_Details_Modifiers_List_Item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.Order_Details_Modifiers_List_Item_Name {
+    flex-grow: 2;
+    font-size: 14px;
+}
+.Order_Details_Modifiers_List_Item_Price {
+    flex-grow: 1;
+    font-size: 14px;
+}
+.Order_Item_Options_Addon_Item div:first-child() {
+    flex-grow: 1;
+}
+.Order_ItemList_Button {
+    width: 100%;
+    cursor: pointer;
+}
+.Order_Details_Remove_Button {
+    color: red;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-decoration: underline;
+    position: relative;
+    float: right;
+}
+.Order_Details_Modifier_Addons_List {
+    margin: 0;
+}
+.Order_Details_Pricing_List {
+    border: none;
+}
+.Order_Details_Pricing_List_Item {
+    display: flex;
+    flex-direction: row;
+}
+.Order_Details_Pricing_Label {
+    flex: 3;
+    text-align: right;
+    font-weight: 700;
+    padding: 5px;
+}
+.Order_Details_Pricing_Price {
+    flex: 1;
+    text-align: left;
+    padding: 5px;
+}
+.Order_Details_Checkout_Wrapper {
+    margin-bottom: 15px;
+}
+.Order_Details_Modifiers_Addons_Header {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 10px;
+}
+.Order_Details_Modifier_Addons_List {
+    list-style-type: none;
+}
+
+
+.Order_Details_Modifier_Container {
+    text-align: left;
+}
+
+
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_List_Item_Modifier_Label {
+    font-family: "Lato Light", sans-serif;
+    font-weight: 400;
+    margin-right: 4px;
+    font-size: 14px;
+}
+.Orders_OrderItem_Modal_Details_Content_Item_Modifiers_List_Item_Modifier {
+    font-family: "Lato Light", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}

@@ -1,0 +1,68 @@
+.MenuItem {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.MenuItem_Button {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.MenuItem_Card:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.MenuItem_Card_Details {
+    flex: 1 1;
+    text-align: left;
+    padding: 1rem;
+    height: 140px; /* set height same as image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.MenuItem_Card_Header {
+    font-size: 1rem;
+    color: rgb(25, 25, 25);
+    margin: 0 0 0.5rem 0;
+    user-select: none;
+}
+.MenuItem_Card_Description {
+    font-size: 0.875rem;
+    color: #6c757d;
+    user-select: none;
+}
+.MenuItem_Card_Price {
+    font-size: 0.875rem;
+    color: rgb(25, 25, 25);
+    user-select: none;
+    font-family: "Lato Light", sans-serif;
+}
+.MenuItem_Image_Wrapper {
+    height: 140px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 0 6px 6px 0;
+}
+.MenuItem_Image {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    image-rendering: optimizeSpeed;
+    transform: translate3d(-20px, -22px, 1px);
+    -webkit-transform: translate3d(-20px, -22px, 1px);
+    -moz-transform: translate3d(-20px, -22px, 1px);
+    -ms-transform: translate3d(-20px, -22px, 1px);
+    -o-transform: translate3d(-20px, -22px, 1px);
+}

@@ -1,0 +1,31 @@
+.navbar{
+    background-color: red;
+    padding: 10px;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 24rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.navbar li {
+    margin-left: 8rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navbar a:hover,
+.navbar a:active,
+.navbar a.active {
+    color: yellow;
+}
+
+

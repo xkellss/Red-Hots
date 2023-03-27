@@ -1,0 +1,70 @@
+.SupportDialog {
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    width: 100%;
+    height: calc(100% - 54px);
+    top: 54px;
+    z-index: 4;
+    margin: 0;
+    box-sizing: border-box;
+}
+.SupportDialog_Content {
+    margin: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.SupportDialog_Content_Left{
+    flex-grow: 2;
+    margin-right: 5px;
+}
+.SupportDialog_Content_Right {
+    flex-grow: 1;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-left: 5px;
+    background-color: rgb(233, 234, 236);
+    border: 1px solid rgb(213, 215, 219);
+}
+.SupportDialog_Buttons button:hover {
+    background-color: rgb(69,114,143);
+}
+.SupportDialog_Buttons button {
+    color: white;
+    background-color: rgb(0,187,225);
+    font-size: 0.75rem;
+    padding: 6px 0;
+    min-width: 125px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.SupportDialog_Close_Icon {
+    cursor: pointer;
+}
+.SupportDialog_Buttons {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 10px 10px 10px;
+}
+.SupportDialog_Container {
+    background-color: white;
+    width: 50%;
+    min-height: 20%;
+    box-shadow: 0 0 2px 0 black;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    box-sizing: border-box;
+}
+.SupportDialog_Header {
+    padding: 8px 10px;
+    color: white;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    background-color: rgb(69,114,143);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}

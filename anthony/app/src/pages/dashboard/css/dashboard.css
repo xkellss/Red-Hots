@@ -1,0 +1,95 @@
+.Dashboard {
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+.DashHeader h1 {
+    color: black;
+    font-size: 2rem;
+}
+.DashHeader div {
+    margin: 10px;
+}
+.Dashboard_Content {
+    transition-duration: 250ms;
+    flex-grow: 1;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 54px calc(100% - 54px);
+    position: relative;
+}
+.DashHeader_Support_Icon {
+    cursor: pointer;
+}
+.DashHeader_Hamburger_Icon {
+    cursor: pointer;
+}
+.DashHeader {
+    background-color: white;
+    border-bottom: 1px solid rgb(213, 215, 219);
+    height: 54px;
+    min-height: 54px;
+    max-height: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 25px 0 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.DashHeader_Title {
+    margin: 0px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+    font-family: Lato;
+    color: rgb(70, 74, 81);
+}
+.DashHeader_Title img {
+    width: 100%;
+    vertical-align: top;
+}
+.DashHeader_User_Header {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.DashHeader_User_Icon {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+.DashHeader_Dropdown_Icon {
+    margin-left: 5px;
+}
+
+.DashHeader_Dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.DashHeader_Dropdown_Content {
+    text-align: left;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 3;
+    border-radius: 5px;
+    cursor: auto;
+    border: 1px solid rgb(213, 215, 219);
+}
+.DashHeader_Dropdown_Content div:nth-child(2n) {
+    display: block;
+    border-top: 1px solid rgb(213, 215, 219);
+}
+.DashHeader_Dropdown_Content div span:hover {
+    text-decoration: underline;
+}
+.DashHeader_Dropdown_Content div span {
+    cursor: pointer;
+}
+.DashHeader_Dropdown_Content div {
+    padding: 5px 0 5px 10px;
+}
