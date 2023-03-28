@@ -51,7 +51,7 @@ function Modal(props) {
         setPrice(itemPrice*qty);
 
         console.log(modifierTotal)
-        console.log(itemPrice)
+        // console.log(itemPrice)
 
     }
     function toggleCartStatusHandler(){

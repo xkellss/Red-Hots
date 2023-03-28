@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 import CartContext from "../../store/Cart-Context";
+import classes from "./CartList.module.css";
+import CartItem from "./CartItem";
 
 function CartList() {
     const cartCtx = useContext(CartContext);
@@ -9,17 +11,15 @@ function CartList() {
     }
 
     return (
-
-        <div>
+        <>
+        <ul className={classes.CartItems}>
             {cartCtx.cart.map((item) => (
-                <div key={item.id}>
-                    <div>
-                        <h3>{item.name}</h3>
-                    </div>
-                    <div>${item.price}</div>
-                </div>
+                <CartItem key={item.id} item={item} />
             ))}
-        </div>
+        </ul>
+            <button className={classes.checkout}>Checkout</button>
+
+        </>
     );
 }
 
