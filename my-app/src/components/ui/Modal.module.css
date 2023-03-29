@@ -7,7 +7,7 @@
     width: 30rem;
     z-index: 10;
     position: fixed;
-    top: 17vh;
+    top: 10vh;
     left: calc(50% - 16rem);
 }
 .overflow{

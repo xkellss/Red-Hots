@@ -1,14 +1,13 @@
 .navbar{
     background-color: red;
     padding: 10px;
-    display: flex;
-    justify-content: center;
+
 }
 
 .navbar ul {
     list-style: none;
     margin: 0;
-    padding-left: 0;
+    padding-left: 24rem;
     display: flex;
     align-items: baseline;
 }

@@ -7,7 +7,6 @@ import CartContext from "../../store/Cart-Context";
 function MenuItem(props) {
 
     const [modalIsOpen,setModalIsOpen]= useState(false);
-
     function handleClick() {
         props.onAddToCart(props);
         setModalIsOpen(true);
