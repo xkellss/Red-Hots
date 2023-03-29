@@ -9,6 +9,7 @@ function Modal(props) {
     const itemIsInCart = cartCtx.itemIsInCart(props.selectedMenuItem.id);
     const [price, setPrice] = useState(parseFloat(props.selectedMenuItem.price));
     const [qty, setQty] = useState(1);
+    const [modifiers, setModifiers] = useState([]);
 
     function incrementQty(){
         setQty(qty => qty + 1);
@@ -24,6 +25,7 @@ function Modal(props) {
     function updatePrice(){
         let itemPrice = parseFloat(props.selectedMenuItem.price);
         let modifierTotal = itemPrice;
+        let modifierNames = [];
 
         //loop through each & add up ones that are checked
         if (modifierGroups) {
@@ -31,6 +33,7 @@ function Modal(props) {
                 group.groupOptions.forEach(option => {
                     if (document.querySelector(`input[type="checkbox"][value="${option.groupOptionId}"]:checked`)) {
                         modifierTotal += option.price;
+                        modifierNames.push(option.name);
                     }
                 });
             });
@@ -38,20 +41,23 @@ function Modal(props) {
             modifierAddons.forEach(addon => {
                 if (document.querySelector(`input[type="checkbox"][value="${addon.addonId}"]:checked`)) {
                     modifierTotal += addon.price;
+                    modifierNames.push(addon.name);
                 }
             });
 
             modifierNoOptions.forEach(noOpt => {
                 if (document.querySelector(`input[type="checkbox"][value="${noOpt.noOptionId}"]:checked`)) {
                     modifierTotal -= noOpt.discountPrice;
+                    modifierNames.push(noOpt.name);
                 }
             });
         }
         itemPrice = parseFloat(modifierTotal.toFixed(2));
         setPrice(itemPrice*qty);
+        setModifiers(modifierNames);
 
         console.log(modifierTotal)
-        console.log(itemPrice)
+        // console.log(itemPrice)
 
     }
     function toggleCartStatusHandler(){
@@ -68,7 +74,8 @@ function Modal(props) {
                 image: props.selectedMenuItem.image,
                 modifier: props.selectedMenuItem.modifier,
                 price: price,
-                quantity: qty
+                quantity: qty,
+                modifiers: modifiers
             });
         }
         // props.onConfirm();
@@ -89,63 +96,63 @@ function Modal(props) {
         <div className={classes.modal}>
             <h2>{props.name}</h2>
             <div className={classes.overflow}>
-            <div className={classes.image}>
-                {/*<img src={props.image} alt="My Image" />*/}
-            </div>
+                <div className={classes.image}>
+                    {/*<img src={props.image} alt="My Image" />*/}
+                </div>
 
-            <div>
-                {modifierGroups && modifierGroups.map(group => (
-                    <div key={group.groupId}>
-                        <h3>{group.name}</h3>
+                <div>
+                    {modifierGroups && modifierGroups.map(group => (
+                        <div key={group.groupId}>
+                            <h3>{group.name}</h3>
                             {group.groupOptions.map(option => (
                                 <div key={option.groupOptionId}>
                                     <input type="checkbox" value={option.groupOptionId} name="groups" onChange={updatePrice} />
                                     {option.name} (${option.price})
                                 </div>
                             ))}
-                    </div>
-                ))}
-            </div>
-            <div>
-                {modifierGroups && modifierAddons.length > 0 && (
-                    <div>
-                        <h3>Addons</h3>
-                        {modifierGroups && modifierAddons.map(addon => (
-                            <div key={addon.addonId}>
-                                <input type="checkbox" value={addon.addonId} name="addon" onChange={updatePrice}/>
-                                {addon.name} (${addon.price})
-                            </div>
-                        ))}
-                    </div>
-                )}
-            </div>
-            <div>
-                {modifierGroups && modifierNoOptions.length > 0 && (
-                    <div>
-                        <h3>Removal Options</h3>
-                        {modifierGroups && modifierNoOptions.map(noOpt => (
-                            <div key={noOpt.noOptionId}>
-                                <input type="checkbox" value={noOpt.noOptionId} name="noOption"onChange={updatePrice} />
+                        </div>
+                    ))}
+                </div>
+                <div>
+                    {modifierGroups && modifierAddons.length > 0 && (
+                        <div>
+                            <h3>Addons</h3>
+                            {modifierGroups && modifierAddons.map(addon => (
+                                <div key={addon.addonId}>
+                                    <input type="checkbox" value={addon.addonId} name="addon" onChange={updatePrice}/>
+                                    {addon.name} (${addon.price})
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </div>
+                <div>
+                    {modifierGroups && modifierNoOptions.length > 0 && (
+                        <div>
+                            <h3>Removal Options</h3>
+                            {modifierGroups && modifierNoOptions.map(noOpt => (
+                                <div key={noOpt.noOptionId}>
+                                    <input type="checkbox" value={noOpt.noOptionId} name="noOption"onChange={updatePrice} />
 
-                                {noOpt.name} (${noOpt.discountPrice})
-                            </div>
-                        ))}
-                    </div>
-                )}
-            </div>
+                                    {noOpt.name} (${noOpt.discountPrice})
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </div>
             </div>
             <div className={classes.btnLayout}>
-            {/*<button className={classes.btnBack} onClick={backHandler}>Back</button>*/}
-            {/*<button className={classes.btn} onClick={confirmHandler}>Add to Cart</button>*/}
+                {/*<button className={classes.btnBack} onClick={backHandler}>Back</button>*/}
+                {/*<button className={classes.btn} onClick={confirmHandler}>Add to Cart</button>*/}
                 <span className={classes.qty}>Quantity:</span>
                 <button className={classes.btnQty} onClick={decrementQty} >-</button>
                 <span className={classes.qty}>{qty}</span>
                 <button className={classes.btnQty} onClick={incrementQty} >+</button>
 
-            <button className={classes.btnCart} onClick={toggleCartStatusHandler}>{itemIsInCart?
-                ' Remove From Cart - ': 'Add To Cart - '}${price.toFixed(2)}
-                {/*<span className={classes.price} >${price.toFixed(2)}</span>*/}
-            </button>
+                <button className={classes.btnCart} onClick={toggleCartStatusHandler}>{itemIsInCart?
+                    ' Remove From Cart - ': 'Add To Cart - '}${price.toFixed(2)}
+                    {/*<span className={classes.price} >${price.toFixed(2)}</span>*/}
+                </button>
 
             </div>
         </div>

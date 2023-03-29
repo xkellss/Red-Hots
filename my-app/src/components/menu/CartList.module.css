@@ -1,0 +1,15 @@
+.checkout{
+    border-radius: 20px;
+    padding: 0.5rem 1.3rem;
+    cursor: pointer;
+    background-color: #ffcc00;
+    color: black;
+    border: 0 solid #ffcc00;
+    margin: 1.5rem 1.5rem;
+    font-weight: bold;
+    float: right;
+}
+.checkout:hover{
+    background-color: rgba(255,204,0,0.6);
+
+}

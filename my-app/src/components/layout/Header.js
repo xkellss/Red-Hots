@@ -13,16 +13,12 @@ function Header() {
                     <Link to={'/'}>Online Ordering</Link>
                 </li>
                 <li>
-                    <Link to={'/orders'}>Orders</Link>
-                </li>
-                <li>
                     <Link to={'/cart'}>
                         Cart
                         <span className={classes.badge}> {cartCtx.totalCart}</span>
 
                     </Link>
                 </li>
-
             </ul>
         </nav>
     );
